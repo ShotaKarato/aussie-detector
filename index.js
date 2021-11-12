@@ -1,3 +1,3 @@
 const { aussieDetector } = require("./aussieDetector");
 
-console.log(aussieDetector("Maccas"));
+console.log(aussieDetector("maccas"));

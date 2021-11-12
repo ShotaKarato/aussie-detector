@@ -11,7 +11,7 @@ function aussieDetector(text) {
     "she'll be right",
   ];
   const isMatched = wordCollection.some((word) =>
-    new RegExp(`${text}`, "gi").test(word)
+    new RegExp(`^${text}$`, "i").test(word)
   );
   return isMatched
     ? "🇦🇺🦘🐨🐊 WELCOME HOME M8 🐊🐨🦘🇦🇺"
