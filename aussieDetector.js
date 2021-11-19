@@ -9,6 +9,11 @@ function aussieDetector(text) {
     "lg",
     "ganger",
     "she'll be right",
+    "noice",
+    "bruz",
+    "tinnies",
+    "smoko",
+    "schnitty",
   ];
   const isMatched = wordCollection.some((word) =>
     new RegExp(`^${text}$`, "i").test(word)
