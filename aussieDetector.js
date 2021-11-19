@@ -3,6 +3,7 @@ function aussieDetector(text) {
     "m8",
     "mate",
     "maccas",
+    "maccas run",
     "sweet as",
     "oi cunt",
     "fucken auth",
@@ -14,6 +15,8 @@ function aussieDetector(text) {
     "tinnies",
     "smoko",
     "schnitty",
+    "how you going m8",
+    "how you going mate",
   ];
   const isMatched = wordCollection.some((word) =>
     new RegExp(`^${text}$`, "i").test(word)
